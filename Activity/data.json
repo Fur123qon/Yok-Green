@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Reforestation Drive",
+    "date": "20 April 2026",
+    "category": "Tree Planting",
+    "location": "Puncak, Jawa Barat",
+    "desc": "Community-based tree planting to restore degraded highland forest areas.",
+    "image": "/assets/kebakaran.png",
+    "url" : "https://forms.gle/FnYiEnE3dCnLoupo8"
+  },
+  {
+    "id": 2,
+    "title": "Green Revival",
+    "date": "25 April 2026",
+    "category": "Forest Restoration",
+    "location": "Pulau Uberset, Kepulauan Mentawai",
+    "desc": "Plant native trees to strengthen fragile island ecosystems.",
+    "image": "/assets/green-revival.png",
+    "url" : "https://forms.gle/FnYiEnE3dCnLoupo8"
+    
+  },
+  {
+    "id": 3,
+    "title": "Riverside Recovery",
+    "date": "28 April 2026",
+    "category": "Wildfire Response",
+    "location": "Sungai Kapuas Hulu, Kalimantan Barat",
+    "desc": "Tree planting along riverbanks to prevent erosion and flooding.",
+    "image": "/assets/river.png",
+    "url" : "https://forms.gle/FnYiEnE3dCnLoupo8"
+  },
+  {
+    "id": 4,
+    "title": "Highland Planting",
+    "date": "05 May 2026",
+    "category": "Tree Planting",
+    "location": "Wamena Valley, Papua Pegunungan",
+    "desc": "Restoring upland forest areas affected by land clearing.",
+    "image": "/assets/highland.png",
+    "url" : "https://forms.gle/FnYiEnE3dCnLoupo8"
+  },
+  {
+    "id": 5,
+    "title": "Mangrove Restoration",
+    "date": "07 May 2026",
+    "category": "Forest Restoration",
+    "location": "Teluk Cenderawasih, Papua",
+    "desc": "Coastal mangrove planting to support biodiversity and shoreline protection.",
+    "image": "/assets/mangrove.png",
+    "url" : "https://forms.gle/FnYiEnE3dCnLoupo8"
+  },
+  {
+    "id": 6,
+    "title": "Community Replanting",
+    "date": "16 May 2026",
+    "category": "Environmental Education",
+    "location": "Halmahera Timur, Maluku Utara",
+    "desc": "Collaborative planting with local communities in remote forest zones.",
+    "image": "/assets/replanting.png",
+    "url" : "https://forms.gle/FnYiEnE3dCnLoupo8"
+  }
+]

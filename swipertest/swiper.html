@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="swiper.css">
+</head>
+
+<body>
+    <div class="cardtegory-container swiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+
+                <div class="newsCard">
+                    <img src="/Assets/kemhut.png" alt="Gambar berita Kemhut" class="newsImg" loading="lazy">
+                    <div class="newsContent">
+                        <h3>Raja Juli Janji Bencana Akibat Kerusakan Lingkungan Tak ...</h3>
+                        <p>Menteri Kehutanan sekaligus Sekjen PSI Raja Juli Antoni menyatakan akan berupaya mencegah
+                            bencana banjir dan longsor yang melanda sejumlah wilayah di Sumatra beberapa waktu lalu
+                            tak terjadi lagi.</p>
+                        <div class="date">
+                            <div class="calendar">
+                                <img src="/Assets/calendar.svg" alt="Gambar kalender">
+                                <span>23, Februari 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-slide">
+
+                <div class="newsCard">
+                    <img src="/Assets/orangbicara.png" alt="Gambar berita Kemhut" class="newsImg" loading="lazy">
+                    <div class="newsContent">
+                        <h3>Menhut Raja Juli: Luas Hutan 125 Juta Hektar, Dijaga 4.800 Orang</h3>
+                        <p>Dalam kunjungannya ke Jember, Jawa Timur, Menteri Kehutanan (Menhut) Raja Juli Antoni
+                            memaparkan persoalan mendasar yang dihadapi sektor kehutanan Indonesia.</p>
+                        <div class="date">
+                            <div class="calendar">
+                                <img src="/Assets/calendar.svg" alt="Gambar kalender">
+                                <span>23, Februari 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-slide">
+
+                <div class="newsCard">
+                    <img src="/Assets/hutan.png" alt="Gambar berita Kemhut" class="newsImg" loading="lazy">
+                    <div class="newsContent">
+                        <h3>Menhut Perluas Perhutanan Sosial: Target 1,4 Hektar Hutan...</h3>
+                        <p>Menteri Kehutanan (Menhut) Raja Juli Antoni mengatakan pemerintah terus memperluas akses
+                            perhutanan sosial, termasuk percepatan pengakuan hutan adat. Ia menargetkan ada 1,4
+                            hektare hutan adat dalam empat tahun.</p>
+                        <div class="date">
+                            <div class="calendar">
+                                <img src="/Assets/calendar.svg" alt="Gambar kalender">
+                                <span>23, Februari 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            
+
+
+
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('.cardtegory-container', {
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false,
+                },
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                breakpoints: {
+
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 40,
+                    },
+                },
+            })
+        })
+    </script>
+</body>
+
+</html>

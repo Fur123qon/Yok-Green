@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <!-- Google Font  -->
+    <link rel="stylesheet" href="/News/news.css">
+    <link rel="icon" href="/Assets/Logo Primary 1.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=arrow_outward" />
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script defer src="/News/News.js"></script>
+
+    <title>Yok Green - Komunitas Penghijauan Asli Indonesia!</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-img">
+                <img src="/Assets/Logo White.png" alt="Logo Yok Green">
+            </div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/AboutUs/about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Activity ▾</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#Donation">Donation</a></li>
+                        <li><a href="/Activity/activity.html">Activity</a></li>
+                    </ul>
+                </li>
+                <li><a href="/News/News.html">News</a></li>
+                <li><a href="/Reviews/review.html">Reviews</a></li>
+            </ul>
+            <a href="#Contact Us" class="button" id="ContactUs">Contact Us</a>
+
+            <!-- Burger Button -->
+            <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <div class="overlay" id="overlay"></div>
+
+        <aside class="drawer" id="drawer" aria-hidden="true">
+            <div class="drawer-top">
+                <p>Menu</p>
+                <button class="drawer-close" id="closeBtn" aria-label="Close menu">✕</button>
+            </div>
+
+            <ul class="drawer-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/AboutUs/about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Activity ▾</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#Donation">Donation</a></li>
+                        <li><a href="/Activity/activity.html">Volunteering</a></li>
+                    </ul>
+                </li>
+                <li><a href="/News/News.html">News</a></li>
+                <li><a href="/Reviews/review.html">Reviews</a></li>
+            </ul>
+
+            <a href="#Contact" class="contact drawer-contact">Contact Us</a>
+        </aside>
+
+
+        <div class="hero-sec">
+            <h1>Environmental News & Updates</h1>
+            <p>Stay informed with the latest developments in environmental policy, forest conservation, climate action,
+                and community initiatives across Indonesia. We bring verified stories that highlight progress,
+                challenges, and real impact on the ground.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="Activity">
+
+            <p class="secondary-T">See The News</p>
+            <div class="textcontent">
+                <h2>Pick one of the News</h2>
+                <p>A news that relate about our green environmental in Indonesia,
+                </p>
+            </div>
+        </div>
+
+        <div class="activities-top">
+            <div class="searchwrap">
+                <input id="searchInput" type="text" placeholder="Search News" />
+            </div>
+            <div class="filters-wrap">
+                <!-- Desktop chips -->
+                <div class="filters" id="filterButtons">
+                    <button class="chip active" data-category="All">All</button>
+                    <button class="chip" data-category="Tree Planting">Tree Planting</button>
+                    <button class="chip" data-category="Wildfire Response">Wildfire Response</button>
+                    <button class="chip" data-category="Forest Restoration">Forest Restoration</button>
+                    <button class="chip" data-category="Environmental Education">Environmental Education</button>
+                </div>
+
+                <!-- Mobile dropdown -->
+                <select class="filter-select" id="filterSelect">
+                    <option value="All">All</option>
+                    <option value="Tree Planting">Tree Planting</option>
+                    <option value="Wildfire Response">Wildfire Response</option>
+                    <option value="Forest Restoration">Forest Restoration</option>
+                    <option value="Environmental Education">Environmental Education</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="cards-grid" id="cardsGrid"></div>
+    </main>
+
+
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <h2>Join the Movement to Restore Nature</h2>
+            <div class="footer-cta">
+                <a href="#" class="btn-primary">Volunteer</a>
+                <a href="#" class="btn-outline">Donate</a>
+            </div>
+        </div>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <img src="/Assets/Logo White.png" alt="Yok Green logo">
+                <p>
+                    Yok Green is a community focused on restoring forests,
+                    protecting ecosystems, and empowering people to care
+                    for the planet.
+                </p>
+            </div>
+
+            <div class="footerlinksG">
+
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Activity</a>
+                    <a href="#">News</a>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Programs</h4>
+                    <a href="#">Forest Restoration</a>
+                    <a href="#">Education</a>
+                    <a href="#">Volunteer</a>
+                    <a href="#">Partnership</a>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <a href="#">hello@yokgreen.org</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Indonesia</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Yok Green — Protect Nature, Preserve Future
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

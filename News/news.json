@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Raja Juli Janji Bencana Akibat Kerusakan Lingkungan Tak Terulang",
+    "date": "23 Februari 2026",
+    "category": "Environmental Education",
+    "location": "Indonesia",
+    "desc": "Menteri Kehutanan Raja Juli Antoni menyatakan upaya pencegahan bencana banjir dan longsor akan diperkuat melalui perlindungan kawasan dan langkah mitigasi.",
+    "image": "/assets/raja-juli-1.jpg",
+    "url": "https://example.com/raja-juli-janji-bencana-kerusakan-lingkungan"
+  },
+  {
+    "id": 2,
+    "title": "Menhut Raja Juli: Luas Hutan 125 Juta Hektar, Dijaga 4.800 Orang",
+    "date": "23 Februari 2026",
+    "category": "Environmental Education",
+    "location": "Jember, Jawa Timur",
+    "desc": "Menteri Kehutanan memaparkan tantangan pengawasan kawasan hutan yang luas dan pentingnya penguatan personel serta kolaborasi lintas pihak.",
+    "image": "/assets/raja-juli-2.jpg",
+    "url": "https://example.com/menhut-raja-juli-luas-hutan-125-juta-hektar"
+  },
+  {
+    "id": 3,
+    "title": "Menhut Perluas Perhutanan Sosial: Target 1,4 Juta Hektar",
+    "date": "23 Februari 2026",
+    "category": "Environmental Education",
+    "location": "Indonesia",
+    "desc": "Perluasan perhutanan sosial didorong untuk memperkuat kesejahteraan masyarakat sekitar hutan sekaligus menjaga kelestarian ekosistem.",
+    "image": "/assets/raja-juli-3.jpg",
+    "url": "https://example.com/perhutanan-sosial-target-1-4-juta-hektar"
+  },
+  {
+    "id": 4,
+    "title": "KLHK Perkuat Upaya Pencegahan Karhutla Menjelang Musim Kemarau",
+    "date": "10 Februari 2026",
+    "category": "Wildfire Response",
+    "location": "Sumatra & Kalimantan",
+    "desc": "Patroli terpadu dan kesiapsiagaan lapangan ditingkatkan untuk menekan risiko kebakaran hutan dan lahan saat cuaca makin kering.",
+    "image": "/assets/karhutla.jpg",
+    "url": "https://example.com/kemenlhk-perkuat-pencegahan-karhutla-musim-kemarau"
+  },
+  {
+    "id": 5,
+    "title": "Program Rehabilitasi Mangrove Nasional Terus Diperluas",
+    "date": "05 Februari 2026",
+    "category": "Tree Planting", 
+    "location": "Pesisir Indonesia",
+    "desc": "Rehabilitasi mangrove diperluas untuk perlindungan pesisir, dukungan biodiversitas, dan kontribusi penyerapan karbon.",
+    "image": "/assets/rehab-mangrove.jpg",
+    "url": "https://example.com/rehabilitasi-mangrove-nasional-diperluas"
+  },
+  {
+    "id": 6,
+    "title": "Indonesia Dorong Kolaborasi Global untuk Pengendalian Perubahan Iklim",
+    "date": "01 Februari 2026",
+    "category": "Forest Restoration",
+    "location": "Internasional",
+    "desc": "Komitmen pengurangan emisi dan perlindungan hutan tropis diperkuat lewat kerja sama internasional dan dukungan kebijakan lintas sektor.",
+    "image": "/assets/climate.jpg",
+    "url": "https://example.com/indonesia-kolaborasi-global-kendalikan-perubahan-iklim"
+  }
+]

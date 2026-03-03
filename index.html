@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <!-- Google Font  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/Assets/Logo Primary 1.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=arrow_outward" />
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+
+    <title>Yok Green - Komunitas Penghijauan Asli Indonesia!</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-img">
+                <img src="/Assets/Logo White.png" alt="Logo Yok Green">
+            </div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/AboutUs/about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Activity ▾</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#Donation">Donation</a></li>
+                        <li><a href="/Activity/activity.html">Activity</a></li>
+                    </ul>
+                </li>
+                <li><a href="/News/News.html">News</a></li>
+                
+                <li><a href="/Reviews/review.html">Reviews</a></li>
+            </ul>
+            <a href="#Contact Us" class="button" id="ContactUs">Contact Us</a>
+
+            <!-- Burger Button -->
+            <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <div class="overlay" id="overlay"></div>
+
+        <aside class="drawer" id="drawer" aria-hidden="true">
+            <div class="drawer-top">
+                <p>Menu</p>
+                <button class="drawer-close" id="closeBtn" aria-label="Close menu">✕</button>
+            </div>
+
+            <ul class="drawer-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/AboutUs/about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Activity ▾</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#Donation">Donation</a></li>
+                        <li><a href="/Activity/activity.html">Volunteering</a></li>
+                    </ul>
+                </li>
+                <li><a href="/News/News.html">News</a></li>
+                
+                <li><a href="/Reviews/review.html">Reviews</a></li>
+            </ul>
+
+            <a href="#Contact" class="contact drawer-contact">Contact Us</a>
+        </aside>
+
+
+
+        <div class="hero-sec">
+            <h1>Together We Protect Our Future </h1>
+            <p>Forests are more than trees. They are homes, oxygen, life, and hope for generations we may never meet.
+                Every action we take today shapes the world they will inherit. Join us in restoring balance, rebuilding
+                ecosystems, and protecting the only planet we have.</p>
+            <a href="#" class="button">Join Us</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="mission">
+            <span class="secondary-T">
+                Explore Our Mission
+            </span>
+            <h2>Forest fires destroy ecosystems and threaten communities. We focus on reforestation, land recovery, and
+                sustainable programs to rebuild forests and prevent future damage.</h2>
+            <div class="mission-container swiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+
+                        <div class="stat-card">
+                            <img class="bg" src="/Assets/burning-Fire.jpg" alt="Forest fire background" />
+
+                            <div class="overlayC"></div>
+
+                            <div class="content">
+                                <div class="stat">10%</div>
+                                <p class="desc">
+                                    In 2024 alone, with approximately 175,400 hectares of forest lost, this means nearly
+                                    17,540 hectares were affected by fire.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="stat-card">
+                            <img class="bg" src="/Assets/tanam pohon.jpg" alt="Forest fire background" />
+
+                            <div class="overlayC"></div>
+
+                            <div class="content">
+                                <div class="stat">Vision.</div>
+                                <p class="desc">
+                                    To build resilient ecosystems and empower communities through sustainable forest
+                                    restoration.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+
+                        <div class="stat-card">
+                            <img class="bg" src="/Assets/view-pegunungan.jpg" alt="Forest fire background" />
+
+                            <div class="overlayC"></div>
+
+                            <div class="content">
+                                <div class="stat">Impact</div>
+                                <p class="desc">
+                                    Reforestation programs typically achieve around a 60–80% survival rate within the
+                                    first
+                                    year.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </div>
+
+        <div class="aboutUs">
+            <span class="secondary-T" id="FS">
+                About Us
+            </span>
+
+            <div class="group">
+                <div class="classify">
+                    <div class="up"><span class="Third-T" id="GreenCommunity">
+                            Green Community
+                        </span>
+                        <span class="Third-T" id="News">
+                            Enviromental News
+                        </span>
+                    </div>
+
+                    <div class="down">
+                        <span class="Third-T" id="Volunteering">
+                            Volunteering Registration
+                        </span>
+                        <span class="Third-T" id="Donation">
+                            Donation System
+                        </span>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <h1>Rebuild. Restore. Protect.</h1>
+                    <p>Our mission is to recover burned ecosystems and protect them through sustainable, long-term
+                        restoration programs. By combining reforestation, land recovery strategies, and local community
+                        engagement, we aim to rebuild resilient forests that can thrive and reduce future wildfire
+                        risks.</p>
+                </div>
+            </div>
+
+            <div class="img-lis">
+                <img src="/Assets/tanam pohon.jpg" alt="">
+            </div>
+        </div>
+
+        <section id="wwd">
+
+            <div class="WhatWeDo">
+                <span class="secondary-T" id="FS">
+                    What We Do
+                </span>
+
+                <h1>Building Forest Nature</h1>
+                <div class="WWG">
+                    <div class="img-trash">
+                        <img src="/Assets/Rectangle 3.png" alt="orang mengambil sampah">
+                    </div>
+
+
+
+                    <div class="categories">
+                        <div class="cardtegory">
+                            <div class="icon"><img src="/Assets/forest.svg" alt=""></div>
+                            <h3>Forest Restoration</h3>
+                            <p>Rebuilding burned and degraded forests through sustainable reforestation and land
+                                recovery
+                                programs.</p>
+                        </div>
+                        <div class="cardtegory">
+                            <div class="icon"><img src="/Assets/community.svg" alt=""></div>
+                            <h3>Donation</h3>
+                            <p>Help rebuild forests by contributing to verified restoration and conservation programs.
+                            </p>
+                        </div>
+                        <div class="cardtegory">
+                            <div class="icon"><img src="/Assets/vest.svg" alt=""></div>
+                            <h3>Volunteering</h3>
+                            <p>Join hands in tree planting, conservation efforts, and community-driven restoration
+                                activities.</p>
+                        </div>
+                        <div class="cardtegory">
+                            <div class="icon"><img src="/Assets/news.svg" alt=""></div>
+                            <h3>Newslatter</h3>
+                            <p>Stay updated with the latest wildfire reports, restoration progress, and environmental
+                                insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cardtegory-container swiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+
+                        <div class="cardtegoryS">
+                            <div class="icon"><img src="/Assets/forest.svg" alt=""></div>
+                            <h3>Forest Restoration</h3>
+                            <p>Rebuilding burned and degraded forests through sustainable reforestation and land
+                                recovery
+                                programs.</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="cardtegoryS">
+                            <div class="icon"><img src="/Assets/community.svg" alt=""></div>
+                            <h3>Donation</h3>
+                            <p>Help rebuild forests by contributing to verified restoration and conservation programs.
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="cardtegoryS">
+                            <div class="icon"><img src="/Assets/vest.svg" alt=""></div>
+                            <h3>Volunteering</h3>
+                            <p>Join hands in tree planting, conservation efforts, and community-driven restoration
+                                activities.</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="cardtegoryS">
+                            <div class="icon"><img src="/Assets/news.svg" alt=""></div>
+                            <h3>Newslatter</h3>
+                            <p>Stay updated with the latest wildfire reports, restoration progress, and environmental
+                                insights.</p>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="program">
+            <div class="OurLastetsProgram">
+                <span class="secondary-T" id="FSO">
+                    Our Latest Program
+                </span>
+
+                <div class="program">
+                    <div class="progtext">
+                        <div id="place">
+                            <img src="/Assets/location.svg" alt="Gambar lokasi program">
+                            <h4>Aceh, Indonesia</h4>
+                        </div>
+                        <div id="progText">
+                            <h3>Tree Planting Program</h3>
+                            <p>Our tree planting program in Aceh engages volunteers in restoring degraded and fire-prone
+                                forest areas. Through native tree planting and long-term monitoring, we aim to rebuild
+                                resilient ecosystems and reduce future wildfire risks.</p>
+
+                            <a href="#" id="joinButton" class="button">Join With Us <span
+                                    class="material-symbols-outlined">
+                                    arrow_outward
+                                </span></a>
+                        </div>
+                    </div>
+                    <div id="img-prog">
+                        <img src="/Assets/tanam pohon.jpg" alt="Gambar program tanam pohon">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="News">
+
+            <div class="News">
+                <span class="secondary-T" id="FSN">
+                    News & Updates
+                </span>
+                <div class="news-wrap">
+                    <h1>Lastest Forest Updates</h1>
+
+                    <div class="news-container swiper">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+
+                                <div class="newsCard">
+                                    <img src="/Assets/kemhut.png" alt="Gambar berita Kemhut" class="newsImg"
+                                        loading="lazy">
+                                    <div class="newsContent">
+                                        <h3>Raja Juli Janji Bencana Akibat Kerusakan Lingkungan Tak ...</h3>
+                                        <p>Menteri Kehutanan sekaligus Sekjen PSI Raja Juli Antoni menyatakan akan
+                                            berupaya mencegah
+                                            bencana banjir dan longsor yang melanda sejumlah wilayah di Sumatra beberapa
+                                            waktu lalu
+                                            tak terjadi lagi.</p>
+                                        <div class="date">
+                                            <div class="calendar">
+                                                <img src="/Assets/calendar.svg" alt="Gambar kalender">
+                                                <span>23, Februari 2026</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="swiper-slide">
+
+                                <div class="newsCard">
+                                    <img src="/Assets/orangbicara.png" alt="Gambar berita Kemhut" class="newsImg"
+                                        loading="lazy">
+                                    <div class="newsContent">
+                                        <h3>Menhut Raja Juli: Luas Hutan 125 Juta Hektar, Dijaga 4.800 Orang</h3>
+                                        <p>Dalam kunjungannya ke Jember, Jawa Timur, Menteri Kehutanan (Menhut) Raja
+                                            Juli Antoni
+                                            memaparkan persoalan mendasar yang dihadapi sektor kehutanan Indonesia.</p>
+                                        <div class="date">
+                                            <div class="calendar">
+                                                <img src="/Assets/calendar.svg" alt="Gambar kalender">
+                                                <span>23, Februari 2026</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="swiper-slide">
+
+                                <div class="newsCard">
+                                    <img src="/Assets/hutan.png" alt="Gambar berita Kemhut" class="newsImg"
+                                        loading="lazy">
+                                    <div class="newsContent">
+                                        <h3>Menhut Perluas Perhutanan Sosial: Target 1,4 Hektar Hutan...</h3>
+                                        <p>Menteri Kehutanan (Menhut) Raja Juli Antoni mengatakan pemerintah terus
+                                            memperluas akses
+                                            perhutanan sosial, termasuk percepatan pengakuan hutan adat. </p>
+                                        <div class="date">
+                                            <div class="calendar">
+                                                <img src="/Assets/calendar.svg" alt="Gambar kalender">
+                                                <span>23, Februari 2026</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="swiper-slide">
+
+                                <div class="newsCard">
+                                    <img src="/Assets/kemhut.png" alt="Gambar berita Kemhut" class="newsImg"
+                                        loading="lazy">
+                                    <div class="newsContent">
+                                        <h3>Raja Juli Janji Bencana Akibat Kerusakan Lingkungan Tak ...</h3>
+                                        <p>Menteri Kehutanan sekaligus Sekjen PSI Raja Juli Antoni menyatakan akan
+                                            berupaya mencegah
+                                            bencana banjir dan longsor yang melanda sejumlah wilayah di Sumatra beberapa
+                                            waktu lalu
+                                            tak terjadi lagi.</p>
+                                        <div class="date">
+                                            <div class="calendar">
+                                                <img src="/Assets/calendar.svg" alt="Gambar kalender">
+                                                <span>23, Februari 2026</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="testimonial">
+            <span class="secondary-T" id="FSO">
+                What People Say
+            </span>
+            <h1>Testimonials</h1>
+            <div class="testiwrapper">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <h2>From Awareness to Action</h2>
+                        <br>
+                        <p>“I’ve explored YokGren and what stands out is how everything feels connected. I started by
+                            reading the wildfire updates in the news section, which gave me context about the real
+                            challenges happening on the ground. After that, I registered as a volunteer and joined a
+                            tree planting activity. The process was simple and organized.
+                        <h4>- Sarah L., Volunteer</h4>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="nd1">
+                    <div class="testimonial-content">
+                        <h2>From Awareness to Action</h2>
+                        <br>
+                        <p>"Yok Green has transformed my perspective on environmental conservation. Their dedication to
+                            restoring forests and empowering communities is truly inspiring. Joining their tree planting
+                            program was a rewarding experience, and I feel proud to be part of such a meaningful cause."
+                        </p>
+                        <h4>- Sarah L., Volunteer</h4>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="nd2">
+                    <div class="testimonial-content">
+                        <h2>From Awareness to Action</h2>
+                        <br>
+                        <p>"Yok Green has transformed my perspective on environmental conservation. Their dedication to
+                            restoring forests and empowering communities is truly inspiring. Joining their tree planting
+                            program was a rewarding experience, and I feel proud to be part of such a meaningful cause."
+
+                        </p>
+                        <h4>- Michael Chen, Donor</h4>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <h2>Join the Movement to Restore Nature</h2>
+            <div class="footer-cta">
+                <a href="#" class="btn-primary">Volunteer</a>
+                <a href="#" class="btn-outline">Donate</a>
+            </div>
+        </div>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+                <img src="/Assets/Logo White.png" alt="Yok Green logo">
+                <p>
+                    Yok Green is a community focused on restoring forests,
+                    protecting ecosystems, and empowering people to care
+                    for the planet.
+                </p>
+            </div>
+
+            <div class="footerlinksG">
+
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Activity</a>
+                    <a href="#">News</a>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Programs</h4>
+                    <a href="#">Forest Restoration</a>
+                    <a href="#">Education</a>
+                    <a href="#">Volunteer</a>
+                    <a href="#">Partnership</a>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <a href="#">hello@yokgreen.org</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Indonesia</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Yok Green — Protect Nature, Preserve Future
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>
