@@ -4,67 +4,73 @@
     "title": "The Canopy Kingdom: Protect the Ancient Sentinels",
     "location": "Central Kalimantan",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest1.png",
     "collected": 48654378,
     "target": 50000000,
-    "daysLeft": 6
+    "daysLeft": 6,
+    "category":"Tree Planting"
   },
   {
     "id": 2,
     "title": "The Green Fortress: Defending Our Coast",
     "location": "Muara Gembong, Bekasi",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest2.png",
     "collected": 9724834,
     "target": 10000000,
-    "daysLeft": 2
+    "daysLeft": 2,
+    "category":"Forest Restoration"
   },
   {
     "id": 3,
     "title": "Wallacea’s Wonder: Trees for the Unique",
     "location": "Lore Lindu, Central Sulawesi",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest3.png",
     "collected": 94846923,
     "target": 100000000,
-    "daysLeft": 10
+    "daysLeft": 10,
+    "category":"Environmental Education"
   },
   {
     "id": 4,
     "title": "The Emerald of Papua: Guarding the Last Frontier",
     "location": "Arfak Mountains, West Papua",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest4.png",
     "collected": 438643326,
     "target": 475000000,
-    "daysLeft": 10
+    "daysLeft": 10,
+    "category":"Forest Restoration"
   },
   {
     "id": 5,
     "title": "Peatland Peace: Stop the Haze, Start the Growth",
     "location": "Kampar Peninsula, Riau",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest5.png",
     "collected": 34082273,
     "target": 43700000,
-    "daysLeft": 12
+    "daysLeft": 12,
+    "category":"Environmental Education"
   },
   {
     "id": 6,
     "title": "Bali’s Green Soul: Beyond the Beaches",
     "location": "West Bali National Park",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest6.png",
     "collected": 43856928,
     "target": 78000000,
-    "daysLeft": 7
+    "daysLeft": 7,
+    "category":"Tree Planting"
   },
   {
     "id": 7,
     "title": "Oxygen Factory: Plant Our Future Today",
     "location": "Leuser Ecosystem, Sumatra",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest7.png",
     "collected": 56347289,
     "target": 100000000,
     "daysLeft": 15
@@ -74,19 +80,21 @@
     "title": "The Forest Speaks: Hear the Whispers of the Trees",
     "location": "Kalimantan",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest8.png",
     "collected": 238028384,
     "target": 550000000,
-    "daysLeft": 18
+    "daysLeft": 18,
+    "category":"Tree Planting"
   },
   {
     "id": 9,
     "title": "Root for a Reason: Adopt a Sapling",
     "location": "Mount Merapi Slopes",
     "desc" : "These massive trees are the guardians of biodiversity. Stop the chainsaws and save the kingdom.",
-    "image": "/assets/mangrove.png",
+    "image": "/assets/forest9.png",
     "collected": 23685938,
     "target": 120000000,
-    "daysLeft": 23
+    "daysLeft": 23,
+    "category":"Tree Planting"
   }
 ]
